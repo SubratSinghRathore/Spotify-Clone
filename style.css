@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.mainContainer{
+    height: calc(100vh - 6px);
+    width: calc(100vw - 6px);
+    display: flex;
+
+}
+.padding{
+    padding: 0px;
+}
+.margin{
+    margin: 3px;
+}
+.borderRadius{
+    border-radius: 10px;
+}
+.backGrouynd{
+    background-color: #1d1d1d;
+}
+.flex{
+    display: flex;
+}
+.margin1{
+    margin: 9px;
+}
+.invert{
+    filter: invert(1);
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.underLine:hover{
+    text-decoration: underline;
+}
+.textOverFlow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.smallFont{
+    font-size: 15px;
+    color: rgb(213, 213, 213);
+    font-weight: 500;
+}
+.largeFont{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.logoSpotify{
+    text-indent: 20px;
+    padding-top: 15px;
+}
+.leftContainer{
+    width: 25vw;
+}
+.leftUp{
+    height: calc(25% - 3px);
+    width: 100%;
+    background-color: #121212;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 3px;
+}
+.leftDown{
+    height: calc(75% - 3px);
+    width: 100%;
+    background-color: #121212;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 3px;
+}
+.rightContainer{
+    width: 75vw;
+    background-color: #1d1d1d;
+}
+
+.rightUp{
+    height: 9%;
+    background-color: #121212;
+    border-radius: 10px 10px 0px 0px;
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContent{
+    width: 100%;
+    height: 89%;
+    overflow: auto;
+}
+.yourLibraryLogo{
+    filter: invert(1);
+    margin: 10px 10px 10px 20px;
+}
+.playList{
+    margin: 7px;
+    padding: 15px;
+    background-color: #1d1d1d;
+}
+.createPlaylist{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 4px;
+}
+.createPlaylist:hover{
+    padding: 0px 4px;
+    margin: 0px;
+}
+.createPodcasts:hover{
+    padding: 0px 4px;
+    margin: 0px;
+}
+.createPodcasts{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    width: 133px;
+    text-align: center;
+    margin: 0px 4px;
+}
+.userFeatures{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 40%;
+    overflow: auto;
+}
+.list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 25px 18px;
+    padding: 5px;
+    font-size: 13px;
+}
+ul li{
+    cursor: pointer;
+    color: rgb(213, 213, 213);
+    list-style-type: none;
+    padding: 6px;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    display: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.389);
+}
+::-webkit-scrollbar-corner{
+    display: none;
+}
+.funcBtn{
+    margin: 20px;
+}
+.signUpBtn{
+    margin: 10px;
+}
+.signUp{
+    text-align: center;
+    margin: 15px;
+    font-size: 15px;
+    color: rgb(213, 213, 213);
+    font-weight: 500;
+}
+.LogIn{
+    text-align: center;
+    width: 80px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LogIn:hover{
+    text-align: center;
+    width: 80px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;   
+    padding: 3px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popularArtists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.artistsImage{
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+}
+.artists{
+    padding: 10px;
+    width: 160px;
+}
+.artists:hover{
+    background-color: #3131315f;
+}
+.popularAlbums{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.albumsImage{
+    height: 160px;
+    width: 160px;
+    border-radius: 7px;
+}
+.albums{
+    padding: 10px;
+    width: 160px;
+}
+.albums:hover{
+    background-color: #3131315f;
+
+}
+.artists:hover{
+    background-color: #3131315f;
+}
+.popularRadios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.radios{
+    padding: 10px;
+    width: 160px;
+}
+.radiosImage{
+    height: 160px;
+    width: 160px;
+    border-radius: 7px;
+}
+.radios:hover{
+    background-color: #3131315f;
+}
